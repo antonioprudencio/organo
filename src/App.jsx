@@ -1,9 +1,13 @@
-import Banner from './componentes/Banner/Banner'
+import Banner from './componentes/Banner'
+import Form from './componentes/Form'
 function App() {
 
   return (
     <>
-      <Banner/> 
+      <div className='App'>
+          <Banner/> 
+          <Form/>
+      </div>
     </>
   )
 }
